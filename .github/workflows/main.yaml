@@ -27,3 +27,6 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/beermapping:latest
+
+      - name: Trigger Render Deployment
+        run: curl -f ${{ secrets.RENDER_DEPLOY_HOOK }}

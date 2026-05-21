@@ -2,7 +2,7 @@ services:
   app:
     image: hashan7/beermapping:latest
     ports:
-      - 8080:8080
+      - 8080:3000
 
   watchtower:
     image: nickfedor/watchtower
