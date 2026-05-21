@@ -33,5 +33,9 @@ docker compose up
 
 The application will be accessible at ```bash http://localhost:8080 ```
 
+## 🌐 Live Deployment
+The application is automatically deployed to Render and can be accessed live here:
+- Live App: [https://express-pipeline-cloud.onrender.com](https://express-pipeline-cloud.onrender.com)
+
 
 
